@@ -141,13 +141,10 @@ namespace LearnAlg
                 return 0;
             }
         }
-        public static int Reverse(int x)
-        {
-            while (x != 0)
-            {
-
-            }
-        }
+        //public static int Reverse(int x)
+        //{
+           
+        //}
 
     }
     public class ListNode
