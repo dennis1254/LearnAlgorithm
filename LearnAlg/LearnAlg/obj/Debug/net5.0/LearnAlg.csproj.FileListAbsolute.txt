@@ -1,0 +1,16 @@
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.exe
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.deps.json
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.runtimeconfig.json
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.runtimeconfig.dev.json
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.dll
+C:\Personalbox\LearnAlg\LearnAlg\bin\Debug\net5.0\LearnAlg.pdb
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.csproj.AssemblyReference.cache
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.AssemblyInfoInputs.cache
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.AssemblyInfo.cs
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.csproj.CoreCompileInputs.cache
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.dll
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\refint\LearnAlg.dll
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.pdb
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\LearnAlg.genruntimeconfig.cache
+C:\Personalbox\LearnAlg\LearnAlg\obj\Debug\net5.0\ref\LearnAlg.dll
