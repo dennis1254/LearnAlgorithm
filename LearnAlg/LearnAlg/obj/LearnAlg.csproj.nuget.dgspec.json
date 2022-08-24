@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personalbox\\LearnAlg\\LearnAlg\\LearnAlg.csproj": {}
+    "C:\\Personalbox\\LearnAlgorithm\\LearnAlg\\LearnAlg\\LearnAlg.csproj": {}
   },
   "projects": {
-    "C:\\Personalbox\\LearnAlg\\LearnAlg\\LearnAlg.csproj": {
+    "C:\\Personalbox\\LearnAlgorithm\\LearnAlg\\LearnAlg\\LearnAlg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personalbox\\LearnAlg\\LearnAlg\\LearnAlg.csproj",
+        "projectUniqueName": "C:\\Personalbox\\LearnAlgorithm\\LearnAlg\\LearnAlg\\LearnAlg.csproj",
         "projectName": "LearnAlg",
-        "projectPath": "C:\\Personalbox\\LearnAlg\\LearnAlg\\LearnAlg.csproj",
+        "projectPath": "C:\\Personalbox\\LearnAlgorithm\\LearnAlg\\LearnAlg\\LearnAlg.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Personalbox\\LearnAlg\\LearnAlg\\obj\\",
+        "outputPath": "C:\\Personalbox\\LearnAlgorithm\\LearnAlg\\LearnAlg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
