@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearnAlg.LearnEventsAndDelegates;
+using System;
 
 namespace LearnAlg
 {
@@ -11,9 +12,12 @@ namespace LearnAlg
             //var a = LeetCode.OrderByOccurrences(new int[] { 1, 2, 3, 4, 5, 6, 4, 4, 3, 3, 6, 6, 6, 6, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, });
             // Console.WriteLine(LearnStringBuilder.StringBuilderExample());
 
-            var encryted = LearnCryptography.EncryptSymmetric("Owhiroro");
-            Console.WriteLine(encryted);
-            Console.WriteLine(LearnCryptography.DecryptSymmetric(encryted));
+            //var encryted = LearnCryptography.EncryptSymmetric("Owhiroro");
+            //Console.WriteLine(encryted);
+            //Console.WriteLine(LearnCryptography.DecryptSymmetric(encryted));
+
+            EventAndDelegateStartup.Execute();
+        
         }
     }
 }
