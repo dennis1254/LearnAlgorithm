@@ -15,8 +15,9 @@ namespace LearnAlg
             //var encryted = LearnCryptography.EncryptSymmetric("Owhiroro");
             //Console.WriteLine(encryted);
             //Console.WriteLine(LearnCryptography.DecryptSymmetric(encryted));
+            BasicAlgorithm.SimpleAlgorithms.Execute();
 
-            EventAndDelegateStartup.Execute();
+            //EventAndDelegateStartup.Execute();
         
         }
     }

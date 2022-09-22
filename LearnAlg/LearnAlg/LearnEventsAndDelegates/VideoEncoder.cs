@@ -12,7 +12,7 @@ namespace LearnAlg.LearnEventsAndDelegates
         // Define a delegate
         // Define an event based on that delegate
         // Raise the event
-        // public delegate void VideoEncodedHandler(object source, VideoEventArg args);
+        // public delegate void VideoEncodedHandler(object source, VideoEventArg args); // No need to create different event handler delegates as we can use the generic on from .NET
         // public event VideoEncodedHandler VideoEncoded;
         public event EventHandler<VideoEventArg> VideoEncoded;
         public void Encode(Video video)
