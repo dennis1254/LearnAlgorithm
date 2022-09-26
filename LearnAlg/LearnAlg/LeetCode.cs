@@ -39,6 +39,23 @@ namespace LearnAlg
             return result == initial;
 
         }
+        public int LengthOfLongestSubstring(string s)
+        {
+            int longest = 0;
+            string longestSubstring = string.Empty;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (longestSubstring.Contains(s[i]))
+                {
+                    if (longestSubstring.Length > longest) longest = longestSubstring.Length;
+                    longestSubstring = longestSubstring.Substring(longestSubstring.IndexOf(s[i]) + 1);
+                }
+                longestSubstring += s[i];
+            }
+            if (longestSubstring.Length > longest) longest = longestSubstring.Length;
+
+            return longest;
+        }
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             ListNode result = new ListNode();

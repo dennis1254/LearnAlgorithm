@@ -62,12 +62,66 @@ namespace LearnAlg.AlgorithmTechniques
 
             return longest;
         }
+        //public static int MinSubArrayLen(int target, int[] nums)
+        //{
+        //    int minCount = 0;
+        //    int sum = 0;
+
+        //    foreach (int a in nums)
+        //    {
+        //        sum += a;
+        //        minCount++;
+        //        if (sum >= target) break;
+        //    }
+        //    if (sum < target) return 0;
+        //    if (minCount == 1) return minCount;
+        //    int result = minCount;
+        //    for(int i= 0; i<nums.Length; i++)
+        //    {
+        //        if(nums.Skip(i).Take(minCount-1).Sum()>= target)
+        //        {
+        //            result = minCount - 1;
+        //            minCount--;
+        //        }
+        //    }
+        //    return result;
+        //}
+        public static int MinSubArrayLen(int target, int[] nums)
+        {
+            if (nums.Sum() < target) return 0;
+            int minLength = nums.Length;
+            int sum = 0;
+            int lastSum = 0;
+            int left = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                sum += nums[i];
+                while (sum >= target)
+                {
+                    lastSum = sum;
+                    sum -= nums[left];
+                    left++;
+                }
+                minLength = lastSum >= target && (i - left + 2 > 0) ? Math.Min(minLength, i - left + 2) : minLength;
+            }
+            return lastSum>=target? minLength:0;
+        }
         public IList<string> FindRepeatedDnaSequences(string s)
         {
-            var result = new List<string>();
-            if(s.Length < 10) return result;
-            string startSequence = s.Substring(0, 9);
-            return result;
+            var temp = new HashSet<string>();
+            var result = new HashSet<string>();
+            if (s.Length < 10) return result.ToList();
+            for (int j = 10, i = 0; i + 10 <= s.Length; i++)
+            {
+                var nextSequence = s.Substring(i, j);
+                if (temp.Contains(nextSequence))
+                {
+                    result.Add(nextSequence);
+                }
+                else
+                    temp.Add(nextSequence);
+            }
+            return result.ToList();
         }
     }
 }
